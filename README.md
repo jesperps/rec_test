@@ -26,7 +26,8 @@ countDown $number
 
 Language | Does while terminate | Results
 ---------|----------------------|--------
-Python | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly
-Ruby | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly
+Python | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with <ctrl>+c
+Ruby | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with <ctrl>+c  
 Bash | Yes | Numbers count down until 1 and the program exits, but debugging `bash -x` shows multiple while-condition testing at the end
-Perl | Yes | This one is really one of the stranger ones. The given number is printed out as expected but after that the program seems to hold it's breath. After a long pause more numbers are printed out one a single row. The pause doubles as the given number increases as do the number numbers. If 2 is given 11 is printed out if 3 is given 211211 is printed, 4 gets 32112113211211 and so on, the results of a test run is provided [here](https://raw.githubusercontent.com/jesperps/rec_test/master/findings/perl_exemple_output.txt) 
+Perl | Yes | This one is really one of the stranger ones. The given number is printed out as expected but after that the program seems to hold it's breath. After a long pause more numbers are printed out one a single row. The pause doubles as the given number increases as do the number numbers. If 2 is given 11 is printed out if 3 is given 211211 is printed, 4 gets 32112113211211 and so on, the results of a test run is provided [here](https://raw.githubusercontent.com/jesperps/rec_test/master/findings/perl_exemple_output.txt)
+Awk | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with <ctrl>+z (<ctrl>+c has no effect)

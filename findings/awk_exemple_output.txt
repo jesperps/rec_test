@@ -1,0 +1,66 @@
+$ time ./countDown.awk 
+Give me a number: 2
+2
+1
+1
+1
+1
+^Z
+[1]+  Stopped                 ./countDown.awk
+
+real	0m6.945s
+user	0m0.000s
+sys	0m0.001s
+
+$ time ./countDown.awk 
+Give me a number: 3
+3
+2
+1
+1
+1
+1
+1
+^Z
+[2]+  Stopped                 ./countDown.awk
+
+real	0m9.316s
+user	0m0.000s
+sys	0m0.001s
+
+$ time ./countDown.awk 
+Give me a number: 4
+4
+3
+2
+1
+1
+1
+1
+1
+^C1
+1
+1
+^Z
+[3]+  Stopped                 ./countDown.awk
+
+real	0m14.583s
+user	0m0.000s
+sys	0m0.001s
+
+$ time ./countDown.awk 
+Give me a number: 5
+5
+4
+3
+2
+1
+1
+1
+1
+^Z
+[4]+  Stopped                 ./countDown.awk
+
+real	0m10.299s
+user	0m0.000s
+sys	0m0.001s
