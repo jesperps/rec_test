@@ -2,7 +2,25 @@
 
 An attemt to show differences of recursion with a while-condition as terminator. To use a while-loop inside a recursive function as a terminator is probably never a good choice, but I got a question regarding the difference between termination witn an if-statement (which is the natural choice to use btw) and a while-loop on a quiz at programming course I am attending. And this made me wonder why there really is a difference between using an if or a while but also if different programming languages handles recursive functions with while-loop termination.
 
-Here are som exemples of code for a very basic count down function, each program asks for a number and is then suposed to print numbers in descending order until 1 and exit.
+Here are som exemples of code for a very basic count down function, each program asks for a number and is then suposed to print numbers in descending order until 1 and exit. Exemple written in bash:
+
+``` bash
+#!/usr/bin/env bash
+
+printf "Give me a number: "
+read number
+
+function countDown {
+    length=$1
+    while [ $length -gt 0 ]; do
+        sleep 1
+        echo $length
+        countDown $(($length - 1))
+    done
+}
+
+countDown $number
+```
 
 ## Results:
 
