@@ -1,0 +1,44 @@
+$ time java CountDown
+Give me a number: 1
+1
+real	0m3.059s
+user	0m0.149s
+sys	0m0.080s
+$ time java CountDown
+Give me a number: 2
+211
+real	0m5.452s
+user	0m0.141s
+sys	0m0.040s
+$ time java CountDown
+Give me a number: 3
+3211211
+real	0m9.314s
+user	0m0.161s
+sys	0m0.045s
+$ time java CountDown
+Give me a number: 4
+432112113211211
+real	0m16.304s
+user	0m0.157s
+sys	0m0.053s
+$ time java CountDown
+Give me a number: 5
+5432112113211211432112113211211
+real	0m33.592s
+user	0m0.167s
+sys	0m0.070s
+ ~/GIT/github/rec_test [master ↓·1|…2] 
+$ time java CountDown
+Give me a number: 6
+654321121132112114321121132112115432112113211211432112113211211
+real	1m4.288s
+user	0m0.185s
+sys	0m0.097s
+$ time java CountDown
+Give me a number: 7
+7654321121132112114321121132112115432112113211211432112113211211654321121132112114321121132112115432112113211211432112113211211
+real	2m8.857s
+user	0m0.227s
+sys	0m0.155s
+
