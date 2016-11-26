@@ -26,10 +26,10 @@ countDown $number
 
 Language | Does while terminate | Results
 ---------|----------------------|--------
-Python | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
-Ruby | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`  
-Bash | Yes | Numbers count down until 1 and the program exits, but debugging `bash -x` shows multiple while-condition testing at the end
-Perl | Yes | This one is really one of the stranger ones. The given number is printed out as expected but after that the program seems to hold it's breath (possibly due to the sleep instructions stacking up  together for some not so obvious reason). After a long pause more numbers are printed out one a single row. The pause doubles as the given number increases as do the number numbers. If `2` is given `11` is printed out if `3` is given `211211` is printed, `4` gets `32112113211211` and so on, the results of a test run is provided [here](https://raw.githubusercontent.com/jesperps/rec_test/master/findings/perl_exemple_output.txt)
-Awk | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+z` (`<ctrl>+c` has no effect)
-R | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
-Java | Yes | Very similar to the Perl one, except the numbers are printed out continuously (with the sleep interval between each print out), i.e. if 3 is given `3211211` is printed, if 4 is given `432112113211211` is printed out etc... 
+[Python](code/countDown.py) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
+[Ruby](code/countDown.rb) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`  
+[Bash](code/countDown.sh) | Yes | Numbers count down until 1 and the program exits, but debugging `bash -x` shows multiple while-condition testing at the end
+[Perl](code/countDown.pl) | Yes | This one is really one of the stranger ones. The given number is printed out as expected but after that the program seems to hold it's breath (possibly due to the sleep instructions stacking up  together for some not so obvious reason). After a long pause more numbers are printed out one a single row. The pause doubles as the given number increases as do the number numbers. If `2` is given `11` is printed out if `3` is given `211211` is printed, `4` gets `32112113211211` and so on, the results of a test run is provided [here](https://raw.githubusercontent.com/jesperps/rec_test/master/findings/perl_exemple_output.txt)
+[Awk](code/countDown.awk) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+z` (`<ctrl>+c` has no effect)
+[R](code/countDown.R) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
+[Java](code/CountDown.java) | Yes | Very similar to the Perl one, except the numbers are printed out continuously (with the sleep interval between each print out), i.e. if 3 is given `3211211` is printed, if 4 is given `432112113211211` is printed out etc... 
