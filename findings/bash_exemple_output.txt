@@ -1,0 +1,199 @@
+$ time bash -x ./countDown.sh 
++ printf 'Give me a number: '
+Give me a number: + read number
+2
++ countDown 2
++ length=2
++ '[' 2 -gt 0 ']'
++ sleep 1
++ echo 2
+2
++ countDown 1
++ length=1
++ '[' 1 -gt 0 ']'
++ sleep 1
++ echo 1
+1
++ countDown 0
++ length=0
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
+
+real	0m5.929s
+user	0m0.004s
+sys	0m0.006s
+
+$ time bash -x ./countDown.sh 
++ printf 'Give me a number: '
+Give me a number: + read number
+3
++ countDown 3
++ length=3
++ '[' 3 -gt 0 ']'
++ sleep 1
++ echo 3
+3
++ countDown 2
++ length=2
++ '[' 2 -gt 0 ']'
++ sleep 1
++ echo 2
+2
++ countDown 1
++ length=1
++ '[' 1 -gt 0 ']'
++ sleep 1
++ echo 1
+1
++ countDown 0
++ length=0
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
+
+real	0m5.344s
+user	0m0.004s
+sys	0m0.007s
+
+$ time bash -x ./countDown.sh 
++ printf 'Give me a number: '
+Give me a number: + read number
+4
++ countDown 4
++ length=4
++ '[' 4 -gt 0 ']'
++ sleep 1
++ echo 4
+4
++ countDown 3
++ length=3
++ '[' 3 -gt 0 ']'
++ sleep 1
++ echo 3
+3
++ countDown 2
++ length=2
++ '[' 2 -gt 0 ']'
++ sleep 1
++ echo 2
+2
++ countDown 1
++ length=1
++ '[' 1 -gt 0 ']'
++ sleep 1
++ echo 1
+1
++ countDown 0
++ length=0
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
+
+real	0m5.500s
+user	0m0.006s
+sys	0m0.009s
+
+$ time bash -x ./countDown.sh 
++ printf 'Give me a number: '
+Give me a number: + read number
+5
++ countDown 5
++ length=5
++ '[' 5 -gt 0 ']'
++ sleep 1
++ echo 5
+5
++ countDown 4
++ length=4
++ '[' 4 -gt 0 ']'
++ sleep 1
++ echo 4
+4
++ countDown 3
++ length=3
++ '[' 3 -gt 0 ']'
++ sleep 1
++ echo 3
+3
++ countDown 2
++ length=2
++ '[' 2 -gt 0 ']'
++ sleep 1
++ echo 2
+2
++ countDown 1
++ length=1
++ '[' 1 -gt 0 ']'
++ sleep 1
++ echo 1
+1
++ countDown 0
++ length=0
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
+
+real	0m7.547s
+user	0m0.007s
+sys	0m0.011s
+
+$ time bash -x ./countDown.sh 
++ printf 'Give me a number: '
+Give me a number: + read number
+6
++ countDown 6
++ length=6
++ '[' 6 -gt 0 ']'
++ sleep 1
++ echo 6
+6
++ countDown 5
++ length=5
++ '[' 5 -gt 0 ']'
++ sleep 1
++ echo 5
+5
++ countDown 4
++ length=4
++ '[' 4 -gt 0 ']'
++ sleep 1
++ echo 4
+4
++ countDown 3
++ length=3
++ '[' 3 -gt 0 ']'
++ sleep 1
++ echo 3
+3
++ countDown 2
++ length=2
++ '[' 2 -gt 0 ']'
++ sleep 1
++ echo 2
+2
++ countDown 1
++ length=1
++ '[' 1 -gt 0 ']'
++ sleep 1
++ echo 1
+1
++ countDown 0
++ length=0
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
++ '[' 0 -gt 0 ']'
+
+real	0m7.627s
+user	0m0.008s
+sys	0m0.012s
