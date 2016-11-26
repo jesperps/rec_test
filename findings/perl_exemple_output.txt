@@ -1,0 +1,47 @@
+$ time ./countDown.pl
+Give me a number: 2
+2
+11
+real	0m5.431s
+user	0m0.004s
+sys	0m0.006s
+
+$ time ./countDown.pl
+Give me a number: 3
+3
+211211
+real	0m8.987s
+user	0m0.004s
+sys	0m0.005s
+
+$ time ./countDown.pl
+Give me a number: 4
+4
+32112113211211
+real	0m16.542s
+user	0m0.004s
+sys	0m0.006s
+
+$ time ./countDown.pl
+Give me a number: 5
+5
+432112113211211432112113211211
+real	0m32.473s
+user	0m0.005s
+sys	0m0.007s
+
+$ time ./countDown.pl
+Give me a number: 6
+6
+54321121132112114321121132112115432112113211211432112113211211
+real	1m6.047s
+user	0m0.006s
+sys	0m0.007s
+
+$ time ./countDown.pl
+Give me a number: 7
+7
+654321121132112114321121132112115432112113211211432112113211211654321121132112114321121132112115432112113211211432112113211211
+real	2m9.079s
+user	0m0.008s
+sys	0m0.024s
