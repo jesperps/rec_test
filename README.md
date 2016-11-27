@@ -34,4 +34,22 @@ Language | Does while terminate | Results
 [R](code/countDown.R) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
 [Java](code/CountDown.java) | Yes | Very similar to the Perl one, except the numbers are printed out continuously (with the sleep interval between each print out), i.e. if 3 is given `3211211` is printed, if 4 is given `432112113211211` is printed out etc...
 [C](code/countDown.c) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
-[Scala](code/countDown.scala) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
+[Scala](code/countDown.scala) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`  
+
+## Versions and stuff
+
+The programs have been created and tested on a 13" MacBook Pro (Retina) with 8GB Ram and a 3Ghz Core i7 processor running OS X 10.10.5. All programs has been run through Terminal Version 2.5.3
+
+### List of versions related to the different programs
+
+Program | Versions
+---------|----------------------
+[Python](code/countDown.py) | Python 2.7.10
+[Ruby](code/countDown.rb) | ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]
+[Bash](code/countDown.sh) | GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin14)
+[Perl](code/countDown.pl) | perl 5, version 18, subversion 2 (v5.18.2) built for darwin-thread-multi-2level
+[Awk](code/countDown.awk) | awk version 20070501
+[R](code/countDown.R) | R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"
+[Java](code/CountDown.java) | java version "1.8.0_40", javac 1.8.0_40
+[C](code/countDown.c) | GNU Make 3.81, gcc --version Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1 Apple LLVM version 7.0.2 (clang-700.1.81) Target: x86_64-apple-darwin14.5.0 Thread model: posix
+[Scala](code/countDown.scala) | Scala code runner version 2.12.0
