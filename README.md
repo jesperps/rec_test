@@ -34,3 +34,4 @@ Language | Does while terminate | Results
 [R](code/countDown.R) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
 [Java](code/CountDown.java) | Yes | Very similar to the Perl one, except the numbers are printed out continuously (with the sleep interval between each print out), i.e. if 3 is given `3211211` is printed, if 4 is given `432112113211211` is printed out etc...
 [C](code/countDown.c) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
+[Scala](code/countDown.scala) | No | Numbers count down until 1 then an infinite loop occurs and 1 is printed repeatedly until the program is terminated with `<ctrl>+c`
